@@ -1,0 +1,383 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins' sans-sarif;
+    color: #222;
+}
+
+
+/*-----navbar----*/
+
+.navbar {
+    padding: .8rem;
+    background: #04091e !important;
+}
+
+.navbar-nav {
+    padding-right: 1.3rem;
+}
+
+.nav-link {
+    font: 1.1em !important;
+}
+
+
+/*---banner----*/
+
+#home {
+    background: linear-gradient(rgba(4, 9, 30, .8), rgba(4, 9, 30, .8)), url(../img/banner-bg.jpg) right;
+    background-size: cover;
+}
+
+#home h1 {
+    color: white;
+}
+
+#home p {
+    color: rgb(155, 153, 153);
+}
+
+#home a {
+    color: white;
+    background: rgb(255, 94, 0);
+}
+
+#home a:hover {
+    color: rgb(255, 94, 0);
+    background: white;
+}
+
+.relative {
+    position: relative;
+}
+
+.fullscreen {
+    height: 700px!important;
+}
+
+
+/*-----features section-----*/
+
+.feature-area {
+    margin-top: -76.5px;
+}
+
+.single-feature {
+    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15))
+}
+
+.single-feature .title {
+    background: none;
+}
+
+.hover-content:hover .title {
+    background-color: rgb(255, 94, 0)!important;
+}
+
+.hover-content:hover a {
+    color: rgb(255, 94, 0)
+}
+
+.single-feature a {
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .single-feature .title {
+        background: rgb(255, 94, 0)!important;
+    }
+}
+
+
+/*owl carousel*/
+
+.pop-link {
+    color: #000 !important;
+}
+
+.pop-link:hover {
+    text-decoration: none;
+    color: rgb(255, 94, 0)!important;
+}
+
+
+/*end of owl carousel*/
+
+
+/* search source section */
+
+#search-course {
+    background: linear-gradient(rgba(4, 9, 30, .8), rgba(4, 9, 30, .8)), url(../img/s-bg.jpg) center;
+    background-size: cover;
+    margin: 100px 0;
+}
+
+.search-course-left h1 {
+    color: white;
+    margin: 3rem 0 !important;
+}
+
+.search-course-left p {
+    color: rgb(155, 153, 153);
+    margin-bottom: 1rem;
+}
+
+.search-course-left .fa-graduation-cap,
+.search-course-left .fa-certificate {
+    color: rgb(255, 94, 0)!important;
+    margin-bottom: 1rem;
+}
+
+.section-gap {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 120px 0;
+    margin: 0;
+}
+
+.section-gap h4 {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.section-gap a {
+    color: white;
+    background: rgb(255, 94, 0)!important;
+}
+
+.section-gap a:hover {
+    background: white !important;
+    color: rgb(255, 94, 0);
+}
+
+
+/* end of search source section */
+
+
+/* section beco-instructor */
+
+.beco-instructor {
+    background: linear-gradient(rgba(255, 255, 255, .0), rgba(255, 255, 255, .0)), url(../img/cta-bg.jpg) center;
+    background-size: cover;
+}
+
+
+/* end of section beco-instructor */
+
+.blog {
+    background: rgb(255, 94, 0);
+}
+
+
+/* footer */
+
+.footer-area {
+    background: #04091e;
+}
+
+.footer-area .col h5 {
+    color: rgb(155, 153, 153);
+    text-align: center;
+}
+
+.footer-area p,
+.footer-area p a {
+    color: rgb(155, 153, 153) !important;
+    background: none!important;
+}
+
+.footer-area a:hover {
+    text-decoration: none!important;
+    background: none!important;
+    color: rgb(255, 94, 0)!important;
+}
+
+.footer-area button {
+    background: rgb(255, 94, 0)!important;
+}
+
+.footer-area button:hover {
+    background: white!important;
+    color: rgb(255, 94, 0)!important;
+}
+
+
+/* --------- About.html ----------*/
+
+
+/* -----mission-area----- */
+
+.mission-area button {
+    color: rgb(43, 42, 42);
+    background: rgb(255, 94, 0);
+}
+
+.mission-area button:hover {
+    color: #fff;
+}
+
+
+/* -----mission-area----- */
+
+
+/* words by teacher */
+
+.words-teacher {
+    margin-bottom: 70px;
+}
+
+
+/* words by teacher */
+
+
+/* ---------End of About.html ----------*/
+
+
+/* ---------Courses.html-------------- */
+
+.course-area {
+    margin-top: 120px;
+}
+
+.course-area .col-lg-3 a {
+    text-decoration: none!important;
+    color: #000!important;
+}
+
+.course-area .col-lg-3 a:hover {
+    color: rgb(255, 94, 0)!important;
+}
+
+.course-area .btn {
+    background: rgb(255, 94, 0)!important;
+    color: #fff!important;
+}
+
+.course-area .btn:hover {
+    background: #fff!important;
+    color: rgb(255, 94, 0)!important;
+    border: rgb(255, 94, 0) 1px solid!important;
+}
+
+
+/* ---------Courses.html-------------- */
+
+
+/* ----------events.html------------- */
+
+
+/* up-events */
+
+.up-events .btn {
+    background: rgb(255, 94, 0)!important;
+    color: #fff!important;
+}
+
+.up-events .btn:hover {
+    background: #fff!important;
+    color: rgb(255, 94, 0)!important;
+    border: rgb(255, 94, 0) 1px solid!important;
+}
+
+
+/* end of up-events */
+
+
+/* ----------end of events.html------------- */
+
+
+/* -----------gallery.html------------ */
+
+
+/* gallery-area */
+
+.gallery-area a {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-imgs {
+    position: relative;
+}
+
+.gallery-area .img-fluid {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    z-index: 1;
+}
+
+.gallery-area .overlay-bg {
+    transition: all .5s ease 0s;
+    position: absolute;
+    width: 100;
+    height: auto;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0.1;
+}
+
+.gallery-area .single-imgs img {
+    width: 100%;
+}
+
+.single-imgs:hover .img-fluid {
+    opacity: 0.3;
+}
+
+.single-imgs:hover .overlay-bg {
+    opacity: 1;
+    background: rgb(247, 99, 27);
+}
+
+
+/* end of gallery-area */
+
+
+/* -----------end of gallery.html------------ */
+
+
+/*----------- Contact.html-------------*/
+
+.contacting a {
+    background: rgb(255, 94, 0)!important;
+    color: white!important;
+    border: 1px solid white;
+}
+
+.contacting a:hover {
+    background: white !important;
+    color: rgb(255, 94, 0)!important;
+    border: 1px solid rgb(255, 94, 0)!important;
+}
+
+
+/*-----------End of contact.hmtl -------------*/
+
+
+/* event-detail.html */
+
+.ev-detail .event-details-right {
+    margin-top: 30px;
+}
+
+.ev-detail .event-details-right .single-event-details {
+    background: #f9f9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.ev-detail ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* event-detail.html */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Students list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Temperature list</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Chosen Course</th>
+                    <th scope="col">Telephone Number</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+        </table>
+    </main>
+    <script>
+        var $ = (arg) => document.querySelector(arg)
+        var create = (arg) => document.createElement(arg)
+
+
+        window.onload = () => {
+            let tbody = $('#tbody')
+            let temps_string = localStorage.getItem('temps')
+            let temps;
+
+            if (temps_string == null) {
+                alert('No data was entered!')
+            } else {
+                temps = JSON.parse(temps_string)
+            }
+
+            for (temp of temps || []) {
+                let body_content = `
+                    <tr>
+                        <td>${temp.name}</td>
+                        <td>${temp.email}</td>
+                        <td>${temp.course}</td>
+                        <td>${temp.phone}</td>
+                    </tr>
+                `
+                tbody.innerHTML += body_content
+            }
+        }
+    </script>
+</body>
+
+</html>
